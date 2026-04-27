@@ -1,0 +1,3 @@
+destinations='[{"name":"S4D","url":"https://S4D.dest","proxyHost":"http://127.0.0.1","proxyPort":"8887"}]'
+cds_requires='{"ZAPI_BUSINESS_PARTNER":{"impl":"@sap/cds/srv/remote-service.js","external":true,"kind":"odata-v2","model":"srv/external/ZAPI_BUSINESS_PARTNER","credentials":{"destination":"S4D","path":"/sap/opu/odata/sap/API_BUSINESS_PARTNER"}},"auth":{"strategy":"dummy","kind":"dummy"},"messaging":{"kind":"local-messaging"}}'
+VCAP_SERVICES='{}'
